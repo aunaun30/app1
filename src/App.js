@@ -1,11 +1,15 @@
 import React from 'react'
-import StateFunc from './state-func'
+import { userContext } from './context';
+import Content from './context-content';
 
 
 function App(){
   return (
-    <StateFunc/>
+    <userContext.Provider value={'Nong lookgade'}>
+      <Content/>
+    </userContext.Provider>
   )
 }
+
 
 export default App;
