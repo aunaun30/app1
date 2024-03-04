@@ -1,6 +1,8 @@
 import React from 'react';
-import FormText from './form-text';
+import Formcheck from './form-check';
+import FormValidation from './form-validation';
+
 export function App(){
-    return <FormText/>
+    return <FormValidation/>
 }
 export default App
